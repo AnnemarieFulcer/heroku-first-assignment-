@@ -1,3 +1,4 @@
+
 {% extends "layout.html" %}
 
 {% block content %}
@@ -8,46 +9,58 @@
     <p>This is my first paragraph for the assignment getting started with PHP on Heroku. I need to write three paragraphs of text. I know I could probably just do the lorem ipsem thing but that's kind of boring. I probably will for the other two paragraphs because I'm lazy and honestly not that creative. I'm coming up with more words to write. Writing...writing...writing...there's a lake by my house maybe if it's nice I'll go to it. But then again there's the bacteria and apparently they can cause some diseases or sicknesses. I could go to the ocean... salt water is like a purifyier right? I really don't know anything-there's a reason I'm studying what I'm studying its a wonder I'm alive.</p>
   </div>
 </div>
+
 <div class="container">
   <div class="alert alert-info text-center" role="alert">
      This is a link to my linkedin <a href="https://www.linkedin.com/in/annemarie-fulcer/" class="alert-link">I'm desperate to eventually get hired.</a>
   </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-      <ul>
-        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/php-getting-started">Heroku Button</a> on the repository.</li>
 
-        <li>When Heroku received the source code, it fetched all the dependencies in the <a href="https://github.com/heroku/php-getting-started/blob/master/composer.json">composer.json</a>, creating a deployable slug.</li>
-        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
-      </ul>
-    </div>
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Next Steps</h3>
-      <ul>
-        <li>If you are following the <a href="https://devcenter.heroku.com/articles/getting-started-with-php">Getting Started</a> guide, then please head back to the tutorial and follow the next steps!</li>
-        <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
-        <ul>
-          <li><code>git clone https://github.com/heroku/php-getting-started.git</code> - this will create a local copy of the source code for the app</li>
-          <li><code>cd php-getting-started</code> - change directory into the local source code repository</li>
-          <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the repository</li>
-          <li>You'll now be set up to run the app locally, or <a href="https://devcenter.heroku.com/articles/getting-started-with-php#push-local-changes">deploy changes</a> to Heroku</li>
-        </ul>
-      </ul>
-      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-      <ul>
-        <li><a href="https://www.heroku.com/home">Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-php">Getting Started with PHP on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/deploying-php">Deploying PHP Apps on Heroku</a></li>
-      </ul>
-    </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
-  </div>
 </div>
 
+  <div>
+  <p>This is my second paragraph. I'm putting it here before the table that I have to have. How long do these paragraphs have to be... Later today I have to watch Ex Machina for a class- that I actually think would be pretty fun. A Professor here told me to not take summer classes and I'm like ...um I'd rather do it over the summer so I have motivation to get shit done like going out and enjoying life than at NJ where it's bleak and what's even the point because it's too cold to go outside anyways. Ok I've written enough. 10/10 would recommend summer classes</p>
+</div>
+  <table class="table table-hover">
+    <thead>
+    <tr>
+      <th scope="col">Top 5 Books</th>
+      <th scope="col">Top 5 Foods</th>
+      <th scope="col">Bottom 5 Classes</th>
+      <th scope="col">Top 5 Friends</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td scope="row">The book of Men</td>
+      <td>Burrito</td>
+      <td>Math for Computer Science</td>
+      <td>Nella</td>
+    </tr>
+    <tr>
+      <td scope="row">The Ranger's Apprentice</td>
+      <td>Sushi</td>
+      <td>That one business analysis class</td>
+      <td>Courtney</td>
+    </tr>
+    <tr>
+      <td scope="row">The Sun and her Flowers</td>
+      <td>Toast</td>
+      <td>Astronomy</td>
+      <td>Shelly</td>
+    </tr>
+    <tr>
+      <td scope="row">Elanor and Park</td>
+      <td>Bubble Tea</td>
+      <td>Earth Science</td>
+      <td>Matthew</td>
+    </tr>
+    <tr>
+      <td scope="row">All of Harry Potter- except for the Cursed Child that was crap</td>
+      <td>Poke bowls</td>
+      <td>Computer Ethics</td>
+      <td>no one else is worthy for this list</td>
+    </tr>
+    </tbody>
+  </table>
 {% endblock %}
